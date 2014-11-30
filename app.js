@@ -5,7 +5,7 @@ var app = express();
 console.log('server starting');
 
 app.get('/', function(req, res){
-    res.send('Hello from inside a container!');
+    res.send('ZeroDowntime it\'s possible!');
 });
 
 app.listen(8080);
