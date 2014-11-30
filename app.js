@@ -5,7 +5,7 @@ var app = express();
 console.log('server starting');
 
 app.get('/', function(req, res){
-    res.send('ZeroDowntime is possible!');
+    res.send('ZeroDowntime now is possible!');
 });
 
 app.listen(8080);
